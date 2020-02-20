@@ -1,0 +1,18 @@
+mkdir py-env && cd py-env
+
+# Python 2:
+  pip install virtualenv
+  virtualenv <env-name>
+
+But on 3.6 and above, python3 -m venv is the way to go.
+
+# Python 3
+  python3 -m venv <env-name> ( to create virtual environment)
+  <env-name>/scripts/activate
+  deactivate
+
+windows -> set-executionpolicy remotesigned
+
+pip freeze > requirements.txt
+
+pip install -r requirements.txt

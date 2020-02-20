@@ -1,0 +1,20 @@
+''' 
+Virtual Environment
+	virtualenv is a way that you can seperate different python environments for different projects.
+	virtualenv allows us to create different python environments so that every project has its own dependencies and packages and the specific versions they needed.
+
+'''
+
+pip install virtualenv
+mkdir Environments
+cd Environments
+virtualenv project1_env          (create virutal env)
+source project1_env/bin/activate (activate new python env)
+which python                     (to check current env)
+deactivate						 (to exit virtual env)
+
+pip freeze --local > requirements.txt (to export packages to other env)
+
+virtualenv -p /usr/bin/python2.6 py26_env
+source py26_env/bin/activate
+pip install -r requirements.txts

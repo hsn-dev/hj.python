@@ -1,0 +1,38 @@
+pip help 
+(to print help on cmd)
+
+pip help install 
+(help for specific command)
+
+pip search <package-name> 
+(search for package on web)
+
+pip install <package-name> 
+(install a package)
+
+pip uninstall <package-name>
+(delete a package)
+
+pip list
+(list all installed packages & their versions)
+(Global site-packages)
+
+pip list --outdated or -o
+(to check outdated packages and view latest packages)
+
+pip install -U <package-name>
+(update the package to latest version)
+
+# if you want to give somebody a list of packages that they need for a project to work, then
+
+pip freeze
+pip freeze > requirements.txt
+cat requirements.txt
+
+EndUser Computer
+cat requirements.txt
+pip install -r requirements.txt
+
+
+
+
