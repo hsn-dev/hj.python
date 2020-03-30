@@ -49,3 +49,10 @@ print(id(username))
 # View all attributes and methods available for stored datatype
 print(dir(name))
 print(help(str.find))
+
+# The r prefix specifies that the string is a raw string.
+# This causes the Python interpreter to read the backslash characters as literal backslashes.
+# Without the r prefix, the interpreter would assume that the backslash characters were part of escape sequences,
+# and an error would occur.
+
+# test_file = open(r'C:\Users\Blake\temp\test.txt', 'w') 

@@ -21,4 +21,7 @@ Python Learning Path:
 	19. automate_renaming
 	20. random_num
 	21. named_tuple
-	22. 
+	22. exception_handling
+	23. regex
+	24.
+	25.
