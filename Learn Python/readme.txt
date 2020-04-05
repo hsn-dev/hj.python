@@ -23,5 +23,5 @@ Python Learning Path:
 	21. named_tuple
 	22. exception_handling
 	23. regex
-	24.
+	24. generators_adv
 	25.
