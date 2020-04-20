@@ -53,3 +53,23 @@ if condition:
 	print('Evaluated to True')
 else:
 	print('Evaluated to False')
+
+# ---------------------------- #
+#     SWITCH STATEMENT         #
+# ---------------------------- #
+
+def switch(case):
+	
+	return {
+
+		1: 'one',
+		2: 'two',
+		3: 'three',
+		4: 'four',
+		5: 'five',
+		6: 'six'
+
+	}.get(case, "No Match Found")
+
+x = switch(6)
+print(x)
