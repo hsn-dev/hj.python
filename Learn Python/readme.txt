@@ -7,13 +7,15 @@ Python Learning Path:
 	6.  loops
 	7.  functions
 	8.  modules > my_module.py
-	    modules > intro.py
+	    	    > intro.py
 	9.  std_library
 	10. pip
 	11. virtual_env > venv
 	12. variable_scope
 	13. comprehensions
-	14. generators
+	14. generators > generators_adv.py
+				   > people.py
+				   > mem_profile.py
 	15. sorting
 	16. os_module
 	17. datetime_module
