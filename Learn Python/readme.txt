@@ -14,8 +14,8 @@ Python Learning Path:
 	12. variable_scope
 	13. comprehensions
 	14. generators > generators_adv.py
-				   > people.py
-				   > mem_profile.py
+	               > people.py
+	               > mem_profile.py
 	15. sorting
 	16. os_module
 	17. datetime_module
