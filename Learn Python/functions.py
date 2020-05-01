@@ -10,6 +10,15 @@ print(wish('birthday', 'hasan').upper())
 print(wish('Eid'))
 print(wish('birthday', name="Hamza"))
 
+# we can change the order of arguments while passing:
+print(wish(name='ali', greeting='eid'))
+
+## Error: Positional argument follows keyword argument
+# print(wish(greeting='Eid', 'Ali'))
+
+## Error: Got multiple values for argument 'greeting'
+# print(wish('ali', greeting='eid'))
+
 # *args    => tuple
 # **kwargs => dict 
 def student_info(*args, **kwargs):

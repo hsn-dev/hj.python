@@ -25,5 +25,13 @@ Python Learning Path:
 	21. named_tuple
 	22. exception_handling
 	23. regex
-	24. 
-	25.
+	24. decorators > decorator.py
+				   > elapsed_time.py
+				   > decorator_cs.py
+				   > decorator_finish.py
+	25. oop
+	26. oop > duck_typing
+	27. 
+	28.
+	29.
+	30.

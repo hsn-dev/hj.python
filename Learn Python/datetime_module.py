@@ -15,7 +15,7 @@ import pytz
 		Naive time is easier to work with.
 
 	Awared datetime:
-		Naive datetime does not have information about timezone and daylight saving.
+		Awared datetime have information about timezone and daylight saving.
 
 	The easiest way to tell if a datetime object is naive or awared is by checking tzinfo.
 	tzinfo will be set to None if the object is naive.
