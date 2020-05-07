@@ -34,5 +34,3 @@ class Employee:
 
 
 emp1 = Employee('hasan', 'farooq')
-
-

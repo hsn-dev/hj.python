@@ -31,7 +31,7 @@ Python Learning Path:
 				   > decorator_finish.py
 	25. oop
 	26. oop > duck_typing
-	27. 
-	28.
+	27. packages 
+	28. web_scraping
 	29.
 	30.

@@ -24,6 +24,13 @@ import pytz
 	in relation to offset aware datetime objects.
 	 	
 '''
+#-------------------------------#
+#     CURRENT DATE AND TIME     #
+#-------------------------------#
+time = datetime.datetime.now().strftime("%H:%M:%S")
+date = datetime.datetime.now().date().strftime("%B %d, %Y")
+print("Date: ", date)
+print("Time: ", time)
 
 #-----------------------#
 #     DATE AND TIME     #

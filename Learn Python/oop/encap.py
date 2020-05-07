@@ -38,3 +38,5 @@ print(f.get_model())
 print(f.get_year())
 
 print(help(f))
+
+print(dir(f))
