@@ -33,5 +33,5 @@ Python Learning Path:
 	26. oop > duck_typing
 	27. packages 
 	28. web_scraping
-	29.
+	29. pipenv
 	30.
