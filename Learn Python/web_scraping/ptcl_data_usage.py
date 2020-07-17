@@ -10,7 +10,7 @@ import os
 	pyinstaller -w -F -i [icon_file] [python_file]
 '''
 username = 'admin'
-password = 'WXC8XLGG'
+password = 'password'
 
   
 driver = webdriver.Chrome() 
